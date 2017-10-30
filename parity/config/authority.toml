@@ -18,4 +18,5 @@ bootnodes = [
 password = ["/parity/authority.pwd"]
 
 [mining]
-reseal_on_txs = "none"
+reseal_on_txs = "none" // Authorities reseal automatically
+usd_per_tx = "0" // Allows for free transactions.
